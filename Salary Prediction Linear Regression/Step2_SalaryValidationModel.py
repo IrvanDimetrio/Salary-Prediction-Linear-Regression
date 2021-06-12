@@ -33,12 +33,4 @@ plt.title('Salary VS Experience (Training set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 
-#Visualising the training set results
-plt.figure(2) #n must be a different integer for every windows
-plt.scatter(X_train, Y_train, color = 'red')
-plt.plot(X_train, regressor.predict(X_train), color = 'blue')
-plt.title('Salary VS Experience (Training set)')
-plt.xlabel('Years of Experience')
-plt.ylabel('Salary')
-
 plt.show() # dengan matplotlib figure semua window digambar dan ditampilkan melalui plt.show()
